@@ -127,26 +127,45 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-.box1 {
+/* custom styles */
+h1 {
+  font-size: 30px;
+  margin: 20px;
+}
+.box {
   width: 80px;
   height: 80px;
   padding: 20px;
   margin: 30px;
   background-color: crimson;
-  border: 2px solid black;
+  border: 4px solid black;
+  display: inline-block;
 }
-.box2 {
-  width: 80px;
-  height: 80px;
-  padding: 20px;
-  border: 2px solid black;
-  margin: 30px;
-  background-color: crimson;
+.double {
+  border-style: double;
 }
-.box3 {
-  width: 80px;
-  height: 80px;
+.dashed {
+  border-style: dashed;
+}
+.dotted {
+  border-style: dotted;
+}
+.none {
+  border-style: none;
+}
+p {
+  width: 300px;
+  background-color: red;
+  font-size: 30px;
+  color: silver;
   padding: 20px;
-  border: 2px dashed black;
-  background-color: crimson;
+  border-top: 10px solid blue;
+  border-right: 10px solid gray;
+  border-bottom: 10px solid yellow;
+  border-left: 10px solid green;
+}
+.para-box {
+  background-color: purple;
+  padding: 30px 20px;
+  display: inline-block;
 }
