@@ -136,5 +136,5 @@ table {
   margin: 10px;
   background-color: blueviolet;
   outline: tomato;
-  box-shadow: solid;
+  box-shadow: none;
 }
