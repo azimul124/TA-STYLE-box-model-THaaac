@@ -135,3 +135,10 @@ table {
   border: 10px dashed;
   margin: 20px;
 }
+.border {
+  box-sizing: border-box;
+}
+h3 {
+  font-size: 24px;
+  margin: 20px;
+}
